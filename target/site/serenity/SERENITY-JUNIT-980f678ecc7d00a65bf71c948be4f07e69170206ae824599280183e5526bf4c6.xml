@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Find a Plan in one2trip.net" skipped="0" tests="1" time="27.27" timestamp="2021-01-20 05:21:46"><testcase name="successful search"><failure message="&#10;Expected: &quot;Vuelta a oriente&quot;&#10;     but: was &quot;Plan Bahamas Hotel Riu Palace Paradise Island ( 3 noches - 4 dias)&quot;" type="java.lang.AssertionError">
+Expected: "Vuelta a oriente"
+     but: was "Plan Bahamas Hotel Riu Palace Paradise Island ( 3 noches - 4 dias)"</failure><system-err>
+Expected: "Vuelta a oriente"
+     but: was "Plan Bahamas Hotel Riu Palace Paradise Island ( 3 noches - 4 dias)"&#13;
+net.one2trip.testing.stepdefinitions.SearchPackageDefinitions.heSeesInDetailTheTitle(SearchPackageDefinitions.java:45)&#13;
+✽.He sees in detail the title "Vuelta a oriente"(src/test/resources/net.one2trip.testing.features/SearchPackage.feature:15)&#13;
+</system-err></testcase></testsuite>
