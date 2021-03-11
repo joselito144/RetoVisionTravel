@@ -4,6 +4,7 @@ package net.one2trip.testing.task;
 import net.one2trip.testing.ui.One2TripPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.pages.PageObject;
 import static net.serenitybdd.screenplay.Tasks.instrumented;

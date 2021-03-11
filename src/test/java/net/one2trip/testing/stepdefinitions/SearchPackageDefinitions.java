@@ -15,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.equalTo;
+
 public class SearchPackageDefinitions {
 
     One2TripPage one2TripPage;
@@ -38,10 +39,11 @@ public class SearchPackageDefinitions {
     @When("^he is looking for vacation package \"([^\"]*)\"$")
     public void heIsLookingForVacationPackage(String title) throws Exception {
         user.attemptsTo(Search.packageFor(title));
+        //user.remember('planSeleccionado');
     }
 
     @Then("^He sees in detail the title \"([^\"]*)\"$")
     public void heSeesInDetailTheTitle(String title) throws Exception {
-        user.should(seeThat("El paquete es", Nombre.paquete(), equalTo(title)));
+        user.should(seeThat("package name is", Nombre.paquete(), equalTo(title)));
     }
 }

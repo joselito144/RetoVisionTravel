@@ -4,10 +4,9 @@ import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
-import org.apache.tools.ant.taskdefs.Javadoc;
-import org.apache.tools.ant.taskdefs.Tar;
 
-@DefaultUrl("https://one2trip.net/")
+
+@DefaultUrl("http://test.one2trip.net/")
 public class One2TripPage extends PageObject {
 
     public static final Target BOTON_INVITADO = Target.the("Continuar como invitado").located(By.xpath("//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/app-ita[1]/div[1]/div[1]/div[4]/div[2]/input[1]"));

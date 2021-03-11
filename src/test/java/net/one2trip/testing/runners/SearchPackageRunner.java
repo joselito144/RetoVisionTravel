@@ -6,7 +6,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src\\test\\resources\\net.one2trip.testing.features\\SearchPackage.feature",
+@CucumberOptions(features = "src/test/resources/net.one2trip.testing.features/SearchPackage.feature",
         glue = "net.one2trip.testing.stepdefinitions",
         snippets = SnippetType.CAMELCASE
 )

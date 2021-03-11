@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Find a Plan in one2trip.net" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-01-20T22:21:46" hostname="SBMEDADMINJS22" time="26.837">
+<testsuite name="Find a Plan in one2trip.net" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-11T00:22:15" hostname="LAPTOP-J919QULJ" time="46.725">
   <properties/>
-  <testcase name="successful search" classname="Find a Plan in one2trip.net" time="26.837">
-    <failure message="java.lang.AssertionError: &#10;Expected: &quot;Vuelta a oriente&quot;&#10;     but: was &quot;Plan Bahamas Hotel Riu Palace Paradise Island ( 3 noches - 4 dias)&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expected: &quot;Vuelta a oriente&quot;
-     but: was &quot;Plan Bahamas Hotel Riu Palace Paradise Island ( 3 noches - 4 dias)&quot;
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
-	at net.one2trip.testing.stepdefinitions.SearchPackageDefinitions.heSeesInDetailTheTitle(SearchPackageDefinitions.java:45)
-	at ✽.He sees in detail the title &quot;Vuelta a oriente&quot;(src/test/resources/net.one2trip.testing.features/SearchPackage.feature:15)
-</failure>
-  </testcase>
+  <testcase name="successful search" classname="Find a Plan in one2trip.net" time="46.725"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[ene 20, 2021 5:21:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[mar 10, 2021 7:22:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 39335
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 2639
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1611181309.410][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
-ene 20, 2021 5:21:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+mar 10, 2021 7:22:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
